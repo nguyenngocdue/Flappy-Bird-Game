@@ -163,7 +163,7 @@ while True:
             screen.blit(rotated_bird,bird_rect)
             game_active = check_collision(pipe_list)
 
-            #Pipes
+            #Pipesdaj
             pipe_list = move_pipe(pipe_list)
             draw_pipe(pipe_list)
             score += 0.01
